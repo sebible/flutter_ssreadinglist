@@ -1,0 +1,21 @@
+name: flutter_ssreadinglist
+description: IOS SSReadingList Api for Flutter. It gives access to SafariServices SSReadingList APIs so Flutter apps can easily add urls to Safari Reading List without having to open links in a Safari view.
+version: 0.1.0
+author: yufeiwu<yufeiwu@gmail.com>
+homepage: https://github.com/sebible/flutter_ssreadinglist
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+ plugin:
+    androidPackage: com.sebible.ssreadinglist
+    pluginClass: SsreadinglistPlugin
